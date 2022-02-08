@@ -12,13 +12,17 @@ to generate this file without the comments in this block.
 -}
 { name = "my-project"
 , dependencies =
-  [ "console"
+  [ "bifunctors"
+  , "console"
   , "effect"
+  , "either"
+  , "functors"
   , "integers"
   , "lists"
   , "maybe"
   , "newtype"
   , "prelude"
+  , "profunctor"
   , "psci-support"
   , "read"
   , "strings"
