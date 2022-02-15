@@ -16,6 +16,7 @@ to generate this file without the comments in this block.
   , "console"
   , "effect"
   , "either"
+  , "foldable-traversable"
   , "functors"
   , "integers"
   , "lists"
@@ -27,6 +28,7 @@ to generate this file without the comments in this block.
   , "read"
   , "strings"
   , "tuples"
+  , "unfoldable"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
